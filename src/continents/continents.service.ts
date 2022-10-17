@@ -12,4 +12,8 @@ export class ContinentsService {
   async getAll(): Promise<Continents[]> {
     return await this.continentModel.find().exec();
   }
+  async create(continent: Continents) {
+    const newContinent = new this.continentModel(continent);
+    return await newContinent.save();
+  }
 }
