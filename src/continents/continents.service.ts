@@ -18,13 +18,16 @@ export class ContinentsService {
     return await newContinent.save();
   }
   async search(search: Search): Promise<Continents[]> {
-    //return await this.continentModel.find().where('code').equals(code).exec();
-    const query = this.continentModel.find();
+    let criteria = {};
+    if (search.kw != '') {
+      criteria = { name: { $regex: search.kw.toUpperCase() } };
+    }
+    const query = this.continentModel.find(criteria);
     if (search.lang != '') {
       query.where('langue').in([search.lang]);
     }
     if (search.code != '') {
-      query.where('code').equals(search.code);
+      query.where('code').equals(search.code.toUpperCase());
     }
     return await query.exec();
   }

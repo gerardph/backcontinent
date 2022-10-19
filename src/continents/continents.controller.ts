@@ -26,9 +26,6 @@ export class ContinentsController {
   @Get('search')
   @UsePipes(new ValidationPipe({ transform: true }))
   async search(@Query() search: Search) {
-    console.log(search.code);
-    console.log(search.kw);
-    console.log(search.lang);
     return await this.continentsService.search(search);
   }
 }
