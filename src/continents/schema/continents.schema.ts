@@ -10,6 +10,9 @@ export class Continents {
 
   @Prop()
   name: string;
+
+  @Prop()
+  langue: string[];
 }
 
 export const ContinentsSchema = SchemaFactory.createForClass(Continents);
