@@ -25,7 +25,8 @@
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-
+## Require
+please import the mongodb collection Continents.json, in the folder db.
 ## Installation
 
 ```bash
