@@ -1,31 +1,66 @@
 [{
+  "_id": {
+    "$oid": "634d19e515239e487fdbb1c2"
+  },
+  "code": "AF",
+  "name": "AFRICA",
   "langue": [
     "fr",
     "ang"
   ]
 },{
+  "_id": {
+    "$oid": "634d1ed553a9a870ed87ae03"
+  },
+  "code": "NA",
+  "name": "NORTH AMERICA",
+  "__v": 0,
   "langue": [
     "fr",
     "ang",
     "esp"
   ]
 },{
+  "_id": {
+    "$oid": "634d55bb1f2f13f56772f3db"
+  },
+  "code": "OC",
+  "name": "OCEANIA",
+  "__v": 0,
   "langue": [
     "ang",
     "fr"
   ]
 },{
+  "_id": {
+    "$oid": "634d55e11f2f13f56772f3de"
+  },
+  "code": "AN",
+  "name": "ANTARTICA",
+  "__v": 0,
   "langue": [
     "ang",
     "russ"
   ]
 },{
+  "_id": {
+    "$oid": "634d56061f2f13f56772f3e1"
+  },
+  "code": "AS",
+  "name": "ASIA",
+  "__v": 0,
   "langue": [
     "ch",
     "hindi",
     "russ"
   ]
 },{
+  "_id": {
+    "$oid": "634d56231f2f13f56772f3e4"
+  },
+  "code": "EU",
+  "name": "EUROPE",
+  "__v": 0,
   "langue": [
     "russ",
     "all",
@@ -33,6 +68,12 @@
     "ang"
   ]
 },{
+  "_id": {
+    "$oid": "634d99641f2f13f56772f3ec"
+  },
+  "code": "SA",
+  "name": "SOUTH AMERICA",
+  "__v": 0,
   "langue": [
     "esp",
     "ang",
